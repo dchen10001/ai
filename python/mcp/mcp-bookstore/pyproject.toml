@@ -1,0 +1,51 @@
+[build-system]
+requires = ["uv_build>=0.11.2,<0.12.0"]
+build-backend = "uv_build"
+
+[project]
+name = "mcp-bookstore"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dchen10001", email = "david.chen2@nice.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.27.0",
+]
+
+[project.scripts]
+mcp-bookstore = "mcp_bookstore:main"
+
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "pytest-cov>=7.1.0",
+]
+
+[tool.pytest.ini_options]
+#
+addopts = "-v --tb=short -m 'not integration'"
+testpaths = ["test"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "integration: marks tests as integration tests (deselected by default)",
+    "slow: marks tests as slow (deselected by default)"
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["tests/*", "*/test_*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if __name__ == .__main__.:",
+    "raise AssertionError",
+    "raise NotImplementedError"
+]

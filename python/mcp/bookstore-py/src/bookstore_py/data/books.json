@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Pride and Prejudice",
+		"author": "Jane Austen",
+		"description": "A romantic novel following Elizabeth Bennet as she navigates issues of manners, upbringing, morality, and marriage in early 19th-century England.",
+		"url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+	},
+	{
+		"title": "Don Quixote",
+		"author": "Miguel de Cervantes",
+		"description": "The story of a Spanish gentleman who loses his sanity and decides to become a knight-errant, roaming the world to right wrongs.",
+		"url": "https://www.gutenberg.org/files/996/996-h/996-h.htm"
+	},
+	{
+		"title": "1984",
+		"author": "George Orwell",
+		"description": "A dystopian novel set in a totalitarian society under constant surveillance, exploring themes of government overreach and individual freedom.",
+		"url": "https://www.gutenberg.org/files/1984/1984-h/1984-h.htm"
+	},
+	{
+		"title": "Moby-Dick",
+		"author": "Herman Melville",
+		"description": "The epic tale of Captain Ahab's obsessive quest to hunt down the white whale that maimed him.",
+		"url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm"
+	},
+	{
+		"title": "Wuthering Heights",
+		"author": "Emily Brontë",
+		"description": "A passionate and tragic tale of love and revenge set on the Yorkshire moors, centering on Heathcliff and Catherine Earnshaw.",
+		"url": "https://www.gutenberg.org/files/768/768-h/768-h.htm"
+	}
+]
