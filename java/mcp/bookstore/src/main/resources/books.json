@@ -1,0 +1,32 @@
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A classic novel about racial injustice in the American South, seen through the eyes of young Scout Finch.",
+    "url": "https://example.com/books/to-kill-a-mockingbird"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian novel set in a totalitarian society under constant surveillance, exploring themes of truth and freedom.",
+    "url": "https://example.com/books/1984"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "description": "A romantic novel that critiques the British landed gentry through the story of Elizabeth Bennet and Mr. Darcy.",
+    "url": "https://example.com/books/pride-and-prejudice"
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A story of wealth, love, and the American Dream set in the Jazz Age of the 1920s.",
+    "url": "https://example.com/books/the-great-gatsby"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "description": "A multi-generational saga of the Buendía family in the fictional town of Macondo, blending magical realism with history.",
+    "url": "https://example.com/books/one-hundred-years-of-solitude"
+  }
+]

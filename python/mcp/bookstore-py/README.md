@@ -20,7 +20,7 @@ Open command to create python project with uv
 
 8. configure MCP server in Eclipse (it can be configured in VS, Claude Desktop App as well)
    click edit preferences icon of Copilot Chat (the gear icon on the top right corner of the chat window),
-   select Model Context Protocol(MCP Server), click add server, input server name and port, click save.
+   select Model Context Protocol(MCP Server), copy below json string, and save.
    
    	"py_book_server": {
 		"type": "stdio",
